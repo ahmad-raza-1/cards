@@ -564,6 +564,83 @@ section {
 .player_num {
   height: 140px;
 }
+@media (min-width: 320px) and (max-width: 417px) {
+  .players .container:nth-child(1) .detail .col-4:nth-child(2) {
+    display: none !important;
+  }
+  .players .team {
+    max-width: 300px !important;
+  }
+  .players .row:nth-child(1) {
+    max-width: 300px !important;
+  }
+  .players .row:nth-child(2) {
+    max-width: 300px !important;
+  }
+  .players .row:nth-child(2) .detail {
+    width: 300px !important;
+  }
+  .players .row:nth-child(2) .col-4:nth-child(1) {
+    max-width: 130px !important;
+  }
+  .players .row:nth-child(2) .col-4:nth-child(1) ul {
+    display: none !important;
+  }
+  .players .row:nth-child(2) .col-4:nth-child(1) p {
+    margin: 0 auto !important;
+    margin-top: 35px !important;
+  }
+  .players .row:nth-child(2) .col-4:nth-child(3) h1 {
+    padding-top: 35px !important;
+  }
+  .players .row:nth-child(2) .col-4:nth-child(3) {
+    max-width: 300px !important;
+  }
+  .players .team .col-4 {
+    max-width: 130px !important;
+  }
+  .players .container:nth-child(2) {
+    display: none !important;
+  }
+  .players .container:nth-child(3) {
+    display: none !important;
+  }
+  .team .rounded-circle::before {
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background: #fff;
+    border: 1px solid #fff;
+    top: 150px;
+    left: 75px;
+  }
+  .player {
+    position: absolute;
+    content: "";
+    top: 190px;
+    left: 75px;
+    width: 50%;
+    height: 100%;
+  }
+  .detail .player_name::before {
+    position: absolute;
+    content: "Player Name";
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    color: #483d8b;
+    font-size: 25px;
+    background: #fff;
+    border: 2px solid #0000ff;
+    top: -120px;
+    left: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 /*********************/
 /****** player 2 *****/
 /*********************/
@@ -629,6 +706,14 @@ section {
   float: right;
   background: #fff;
 }
+@media (min-width: 418px) and (max-width: 833px) {
+  .players .container:nth-child(2) {
+    display: none !important;
+  }
+  .players .container:nth-child(3) {
+    display: none !important;
+  }
+}
 /*********************/
 /****** player 3 *****/
 /*********************/
@@ -693,4 +778,9 @@ section {
   height: 10px;
   float: right;
   background: #fff;
+}
+@media (min-width: 834px) and (max-width: 1199px) {
+  .players .container:nth-child(3) {
+    display: none;
+  }
 }
