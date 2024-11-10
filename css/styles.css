@@ -716,6 +716,15 @@ section {
   .players .container:nth-child(3) {
     display: none !important;
   }
+  .players .container:nth-child(1) .detail .col-4:nth-child(2) {
+    display: none !important;
+  }
+  .players .row:nth-child(2) .detail {
+    width: 280px !important;
+  }
+  .players .row:nth-child(2) .col-4:nth-child(3) .player_num {
+    width: 270px !important;
+  }
 }
 /*********************/
 /****** player 3 *****/
